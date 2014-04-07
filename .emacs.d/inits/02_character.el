@@ -3,7 +3,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; .emacs.d/inits/02_character.el
 ;;
-;;                       Last Modified: 2014-01-14 13:21:43
+;;                       Last Modified: 2014-04-08 01:24:32
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; 言語を日本語にする
@@ -39,9 +39,11 @@
        ;; 標準IMEの設定
        (setq default-input-method "MacOSX")
        ;; IME状態のモードライン表示
-       (mac-set-input-method-parameter "com.justsystems.inputmethod.atok26.Japanese" `title "あ")
+       ;(mac-set-input-method-parameter "com.justsystems.inputmethod.atok26.Japanese" `title "あ") ; ATOK 2013 for Mac
+       (mac-set-input-method-parameter "com.google.inputmethod.Japanese.base" `title "ぐ") ; Google 日本語入力
        ;; カーソルの色
-       (mac-set-input-method-parameter "com.justsystems.inputmethod.atok26.Japanese" `cursor-color "green")
+       ;(mac-set-input-method-parameter "com.justsystems.inputmethod.atok26.Japanese" `cursor-color "green") ; ATOK 2013 for Mac
+       (mac-set-input-method-parameter "com.google.inputmethod.Japanese.base" `cursor-color "green") ; Google 日本語入力
        (mac-set-input-method-parameter "com.apple.keylayout.US" `cursor-color "red")
        ;; Emacs 起動時は IME OFF で始める
        (add-hook 'after-init-hook 'mac-change-language-to-us)
