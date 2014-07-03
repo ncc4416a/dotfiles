@@ -3,7 +3,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; .emacs.d/inits/06_modeline.el
 ;;
-;;                       Last Modified: 2014-01-14 13:15:38
+;;                       Last Modified: 2014-07-02 16:37:28
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; ベース
@@ -143,6 +143,10 @@
 ;(set-face-attribute 'mode-line-delim-face-1 nil
 ;    :inherit 'mode-line-face
 ;    :foreground "white")
+
+;; powerline
+(require 'powerline)
+(powerline-default-theme)
 
 ;; 行番号を常に表示する
 (require 'linum)

@@ -3,7 +3,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; .emacs.d/inits/99_color.el
 ;;
-;;                       Last Modified: 2014-01-22 17:32:01
+;;                       Last Modified: 2014-06-17 01:20:09
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; 色
@@ -19,18 +19,18 @@
            ))
  ;; 現在行
  '(hl-line (
-            (((class color) (background dark)) (:background "DarkSlateGray"))
-            (((class color) (background light)) (:background "DarkSlateGray"))
+            (((class color) (background dark)) (:background "DimGray"))
+            (((class color) (background light)) (:background "DimGray"))
             (t ())
             ))
 ;; 現在列(col-highligh)
  '(col-highlight (
-                  (((class color) (background dark)) (:background "DarkSlateGray"))
-                  (((class color) (background light)) (:background "DarkSlateGray"))
+                  (((class color) (background dark)) (:background "DimGray"))
+                  (((class color) (background light)) (:background "DimGray"))
                   (t ())
                   ))
  ;; コメント
- '(font-lock-comment-face ((t (:italic t :foreground "slate gray"))))
+ '(font-lock-comment-face ((t (:italic t :foreground "SlateGray"))))
  )
 
 ;; IME OFF時の初期カーソルカラー

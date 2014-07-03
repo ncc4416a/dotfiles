@@ -3,7 +3,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; .emacs.d/inits/00_package.el
 ;;
-;;                       Last Modified: 2013-12-04 23:56:51
+;;                       Last Modified: 2014-06-17 08:32:01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; package.el
@@ -18,13 +18,15 @@
 (defvar installing-package-list
   '(
     ;; package list
-;    anything
+;    cua-mode
+;    helm
 ;    markdown-mode
 ;    migemo
 ;    open-junk-file
 ;    org
 ;    org-plus-contrib
 ;    popwin
+;    quickrun
 ;    tabbar
 ;    undo-tree
 ;    whitespace-mode
